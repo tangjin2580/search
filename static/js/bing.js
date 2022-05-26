@@ -1,15 +1,5 @@
-/***
- +----------------------------------------------------------------------
- | 网站定制开发 微信：woniu_2025 [ WE ARE THE BEST. 2021-06-26 ]
- +----------------------------------------------------------------------
- | Copyright (c) 2021 https://snailweb.cn All Rights Reserved.
- +----------------------------------------------------------------------
- | Licensed ( https://snailweb.cn )
- +----------------------------------------------------------------------
- | Author: snail <137224272@qq.com>
- +----------------------------------------------------------------------
- ***/
-console.log("\n %c 网站定制开发加微信：woniu_2025 %c https://snailweb.cn \n", "color: #ffffff; background: #f1404b; padding:5px 0;", "background: #030307; padding:5px 0;");
+
+console.log("\n %c 背景引用 \n", "color: #ffffff; background: #f1404b; padding:5px 0;", "background: #030307; padding:5px 0;");
 
 var imgArr = [
     'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-ae88783a-9348-4c8c-8cd9-f66873cddc08/72881079-9eaf-47fd-91d6-b145a579e5f9.jpg',
