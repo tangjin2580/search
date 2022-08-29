@@ -1,10 +1,10 @@
 
-console.log("\n %c 背景引用 \n", "color: #ffffff; background: #f1404b; padding:5px 0;", "background: #030307; padding:5px 0;");
+console.log("\n %c 你要看啥?不给你看 \n", "color: #ffffff; background: #f1404b; padding:5px 0;", "background: #030307; padding:5px 0;");
 
-var imgArr = [
+const imgArr = [
     "https://api.ixiaowai.cn/api/api.php",
     "https://api.ixiaowai.cn/api/api.php"
-]
+];
 bgImg = imgArr[Math.floor(Math.random() * imgArr.length)];
 $('.img-bg').css('background-image', 'url(' + bgImg + ')');
 var theme = {
