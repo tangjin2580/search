@@ -138,6 +138,7 @@
             </div>
         </div>
         <footer class="main-footer footer-type-1 position-relative text-xs">
+            <div class="sakana-box"></div>
             <div id="footer-tools" class="d-flex flex-column">
                 <a href="javascript:" id="go-to-up" class="btn rounded-circle go-up m-1" rel="go-top">
                     <i class="iconfont icon-to-up"></i>
@@ -159,9 +160,19 @@
 
                 </div>
             </div>
+
             <div id="aplayer" class="aplayer" data-order="random" data-id="502295960" data-server="netease" data-type="playlist" data-fixed="true" data-autoplay="true" data-volume="0.6"></div>
         </footer>
     </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/sakana"></script>
+    <script>
+        Sakana.init({
+            el:         '.sakana-box',     // 启动元素 node 或 选择器
+            scale:      .5,                // 缩放倍数
+            canSwitchCharacter: true,      // 允许换角色
+        });
+    </script>
     <script src="static/js/bg.js"></script>
     <script src="static/js/popper.min.js"></script>
     <script src='static/js/bootstrap.min.js' id='bootstrap-js'></script>

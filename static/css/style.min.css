@@ -5915,4 +5915,11 @@ input.nav-link:disabled, input.nav-link[readonly] {
     }
 }
 
+.sakana-box{
+    width: 10px;
+    height: auto;
+    margin-left: 93%;
+    margin-top: 36%;
+}
+
 /*loading*/
