@@ -2,8 +2,11 @@
 console.log("\n %c 你要看啥?不给你看 \n", "color: #ffffff; background: #f1404b; padding:5px 0;", "background: #030307; padding:5px 0;");
 
 const imgArr = [
-    "https://api.ixiaowai.cn/api/api.php",
-    "https://api.ixiaowai.cn/api/api.php"
+    "https://api.dujin.org/bing/1920.php",
+    "http://www.dmoe.cc/random.php",
+    "https://api.lyiqk.cn/acg",
+    "https://api.lyiqk.cn/acg",
+    "https://api.lyiqk.cn/scenery"
 ];
 bgImg = imgArr[Math.floor(Math.random() * imgArr.length)];
 $('.img-bg').css('background-image', 'url(' + bgImg + ')');
