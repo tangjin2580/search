@@ -1,5 +1,5 @@
 
-console.log("\n %c 你要看啥?不给你看 \n", "color: #ffffff; background: #f1404b; padding:5px 0;", "background: #030307; padding:5px 0;");
+console.log("\n %c 你要看啥?不给你看 \n", "color: #ffffff; background: #f1404b; padding:5px 0;");
 
 const imgArr = [
     "https://api.dujin.org/bing/1920.php",
@@ -10,7 +10,7 @@ const imgArr = [
 ];
 bgImg = imgArr[Math.floor(Math.random() * imgArr.length)];
 $('.img-bg').css('background-image', 'url(' + bgImg + ')');
-var theme = {
+const theme = {
     "ajaxurl": "",
     "addico": "/static/index/picture/add.png",
     "order": "asc",
@@ -29,7 +29,7 @@ var theme = {
     "classColumns": " col-sm-6 col-md-4 col-xl-5a col-xxl-6a ",
     "apikey": ""
 };
-var localize = {
+const localize = {
     "liked": "您已经赞过了!",
     "like": "谢谢点赞!",
     "networkerror": "网络错误 --.",
