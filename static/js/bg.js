@@ -4,9 +4,9 @@ console.log("\n %c 你要看啥?不给你看 \n", "color: #ffffff; background: #
 const imgArr = [
     "https://api.dujin.org/bing/1920.php",
     "http://www.dmoe.cc/random.php",
-    "https://api.lyiqk.cn/acg",
-    "https://api.lyiqk.cn/acg",
-    "https://api.lyiqk.cn/scenery"
+    "https://api.paugram.com/wallpaper/",
+    "https://api.ixiaowai.cn/api/api.php"
+
 ];
 bgImg = imgArr[Math.floor(Math.random() * imgArr.length)];
 $('.img-bg').css('background-image', 'url(' + bgImg + ')');
