@@ -3,7 +3,6 @@ console.log("\n %c 你要看啥?不给你看 \n", "color: #ffffff; background: #
 
 const imgArr = [
     "https://api.dujin.org/bing/1920.php",
-    "http://www.dmoe.cc/random.php",
     "https://api.paugram.com/wallpaper/"
 ];
 bgImg = imgArr[Math.floor(Math.random() * imgArr.length)];
